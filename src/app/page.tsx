@@ -1,10 +1,10 @@
+import TiptapEditor from "./editor"
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
-        Hello world
-      </div>
+    <main className="container mx-auto py-10 px-4">
+      <h1 className="text-2xl font-bold mb-6">Tiptap Editor Demo</h1>
+      <TiptapEditor />
     </main>
-  );
+  )
 }
